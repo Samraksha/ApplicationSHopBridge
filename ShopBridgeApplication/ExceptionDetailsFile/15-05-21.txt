@@ -1,0 +1,248 @@
+-----------Exception Details on  5/15/2021 3:01:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :GetProductDetails
+Input Parameters to method :ProductName : 
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.GetProductDetails(String ProductName, String ProductCategory, Nullable`1 dtFromDate, Nullable`1 dtToDate) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 38
+Object reference not set to an instance of an object.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:19:37 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 120
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:24:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 120
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:30:18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 120
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:31:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 108
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:32:54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 108
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:34:06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 108
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:35:17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 120
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:36:09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 120
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:44:41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :DeleteProducts
+Input Parameters to method :id : 99
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.DeleteProducts(Int32 id) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 208
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:47:04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :DeleteProducts
+Input Parameters to method :id : 99
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.DeleteProducts(Int32 id) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 210
+Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 3:53:13 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 109
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 4:00:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 109
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 4:29:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :PostInsertProductDetails
+Input Parameters to method :productDetails : ShopBridgeApplication.Models.Product
+Exception Details :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ShopBridgeApplication.Controllers.ProductModuleController.PostInsertProductDetails(Product productDetails) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 101
+Procedure or function 'InsertProductDetails' expects parameter '@ProductName', which was not supplied.
+--------------------------------*End*------------------------------------------
+
+
+

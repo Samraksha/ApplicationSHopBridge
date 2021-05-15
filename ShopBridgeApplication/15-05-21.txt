@@ -1,0 +1,39 @@
+-----------Exception Details on  5/15/2021 2:54:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :GetProductDetails
+Input Parameters to method :ProductName : 
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.GetProductDetails(String ProductName, String ProductCategory, Nullable`1 dtFromDate, Nullable`1 dtToDate) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 38
+Object reference not set to an instance of an object.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 2:54:27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :GetProductDetails
+Input Parameters to method :ProductName : 
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.GetProductDetails(String ProductName, String ProductCategory, Nullable`1 dtFromDate, Nullable`1 dtToDate) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 38
+Object reference not set to an instance of an object.
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/15/2021 2:54:53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Method Name :GetProductDetails
+Input Parameters to method :ProductName : 
+Exception Details :   at ShopBridgeApplication.Controllers.ProductModuleController.GetProductDetails(String ProductName, String ProductCategory, Nullable`1 dtFromDate, Nullable`1 dtToDate) in C:\Users\srinath\Desktop\TCS\HDFC\ShopBridgeApplication\ShopBridgeApplication\Controllers\ProductModuleController.cs:line 38
+Object reference not set to an instance of an object.
+--------------------------------*End*------------------------------------------
+
+
+
